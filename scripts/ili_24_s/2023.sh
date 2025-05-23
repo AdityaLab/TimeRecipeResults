@@ -1,0 +1,56 @@
+# set -e
+
+export CUDA_VISIBLE_DEVICES=6
+
+model_name=unitsf
+seed=2023
+model_id=ILI_36_24
+path=./dataset/ett/illness/
+file=national_illness.csv
+exp_name=ili_24_s
+data=custom
+setting=S
+seq_len=36
+pred_len=24
+label_len=18
+train_epochs=50
+batch_size=32
+# d_model=512
+d_ff=2048
+n_heads=4
+e_layers=2
+enc_in=1
+dec_in=1
+c_out=1
+
+use_norm_values=("False" "True")
+use_decomp_values=("False" "True")
+fusion_values=("temporal" "feature")
+emb_type_values=("token" "patch" "invert" "freq" "none")
+ff_type_values=("mlp" "rnn" "trans")
+
+
+for use_norm in "${use_norm_values[@]}"; do
+    for use_decomp in "${use_decomp_values[@]}"; do
+        for fusion in "${fusion_values[@]}"; do
+            for emb_type in "${emb_type_values[@]}"; do
+                for ff_type in "${ff_type_values[@]}"; do
+
+                    if [[ "$ff_type" == "rnn" ]]; then
+                        d_model=256
+                    else
+                        d_model=512
+                    fi
+
+                    echo "Running with use_norm=$use_norm, use_decomp=$use_decomp, fusion=$fusion, emb_type=$emb_type, ff_type=$ff_type, d_model=$d_model"
+
+                    python -u run.py --seed $seed --task_name long_term_forecast --model $model_name --model_id $model_id --is_training 1 --root_path $path --data_path $file --data $data --features $setting \
+                            --train_epochs $train_epochs --seq_len $seq_len --pred_len $pred_len --label_len $label_len --use_norm $use_norm --use_decomp $use_decomp --fusion $fusion --emb_type $emb_type --ff_type $ff_type \
+                            --d_model $d_model --n_heads $n_heads --e_layers $e_layers --d_ff $d_ff --enc_in $enc_in --dec_in $dec_in --c_out $c_out \
+                            --exp_name $exp_name --batch_size $batch_size
+
+                done
+            done
+        done
+    done
+done

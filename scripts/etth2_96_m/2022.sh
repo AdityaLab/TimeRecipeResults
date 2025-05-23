@@ -1,0 +1,47 @@
+# set -e
+
+export CUDA_VISIBLE_DEVICES=3
+
+model_name=unitsf
+seed=2022
+model_id=ETTh2_96_96
+path=./dataset/ett/ETT-small/
+file=ETTh2.csv
+data=ETTh2
+setting=M
+pred_len=96
+# d_model=512
+d_ff=2048
+n_heads=4
+e_layers=2
+
+use_norm_values=("False" "True")
+use_decomp_values=("False" "True")
+fusion_values=("temporal" "feature")
+emb_type_values=("token" "patch" "invert" "freq" "none")
+ff_type_values=("mlp" "rnn" "trans")
+
+
+for use_norm in "${use_norm_values[@]}"; do
+    for use_decomp in "${use_decomp_values[@]}"; do
+        for fusion in "${fusion_values[@]}"; do
+            for emb_type in "${emb_type_values[@]}"; do
+                for ff_type in "${ff_type_values[@]}"; do
+
+                    if [[ "$ff_type" == "rnn" ]]; then
+                        d_model=256
+                    else
+                        d_model=512
+                    fi
+
+                    echo "Running with use_norm=$use_norm, use_decomp=$use_decomp, fusion=$fusion, emb_type=$emb_type, ff_type=$ff_type, d_model=$d_model"
+
+                    python -u run.py --seed $seed --task_name long_term_forecast --model $model_name --model_id $model_id --is_training 1 --root_path $path --data_path $file --data $data --features $setting \
+                            --pred_len $pred_len --use_norm $use_norm --use_decomp $use_decomp --fusion $fusion --emb_type $emb_type --ff_type $ff_type \
+                            --d_model $d_model --n_heads $n_heads --e_layers $e_layers --d_ff $d_ff 
+
+                done
+            done
+        done
+    done
+done

@@ -1,0 +1,97 @@
+Setup Ranking (Lower is Better):
+ 1. PEMS_pl48_unFalse_udFalse_fufeature_ebpatch_fftrans_ftM | Avg Rank: 1.00 | MSE: 0.0670 (#1) ± 0.0031, MAE: 0.1900 (#1) ± 0.0039
+ 2. PEMS_pl48_unFalse_udFalse_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 2.50 | MSE: 0.0709 (#3) ± 0.0016, MAE: 0.1939 (#2) ± 0.0025
+ 3. PEMS_pl48_unFalse_udTrue_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 2.50 | MSE: 0.0706 (#2) ± 0.0033, MAE: 0.1949 (#3) ± 0.0038
+ 4. PEMS_pl48_unFalse_udTrue_fufeature_ebpatch_fftrans_ftM | Avg Rank: 4.00 | MSE: 0.0721 (#4) ± 0.0045, MAE: 0.1970 (#4) ± 0.0048
+ 5. PEMS_pl48_unFalse_udFalse_fufeature_ebinvert_fftrans_ftM | Avg Rank: 5.00 | MSE: 0.0729 (#5) ± 0.0026, MAE: 0.1978 (#5) ± 0.0040
+ 6. PEMS_pl48_unFalse_udTrue_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 6.00 | MSE: 0.0750 (#6) ± 0.0013, MAE: 0.2004 (#6) ± 0.0022
+ 7. PEMS_pl48_unFalse_udFalse_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 7.00 | MSE: 0.0758 (#7) ± 0.0043, MAE: 0.2007 (#7) ± 0.0051
+ 8. PEMS_pl48_unFalse_udTrue_fufeature_ebinvert_fftrans_ftM | Avg Rank: 8.50 | MSE: 0.0763 (#8) ± 0.0045, MAE: 0.2043 (#9) ± 0.0069
+ 9. PEMS_pl48_unFalse_udFalse_futemporal_ebnone_ffmlp_ftM | Avg Rank: 9.00 | MSE: 0.0771 (#10) ± 0.0023, MAE: 0.2027 (#8) ± 0.0029
+10. PEMS_pl48_unFalse_udFalse_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 9.50 | MSE: 0.0766 (#9) ± 0.0037, MAE: 0.2043 (#10) ± 0.0055
+11. PEMS_pl48_unFalse_udFalse_fufeature_ebtoken_fftrans_ftM | Avg Rank: 11.00 | MSE: 0.0786 (#11) ± 0.0018, MAE: 0.2061 (#11) ± 0.0021
+12. PEMS_pl48_unFalse_udFalse_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 12.00 | MSE: 0.0797 (#12) ± 0.0069, MAE: 0.2068 (#12) ± 0.0092
+13. PEMS_pl48_unFalse_udTrue_fufeature_ebtoken_fftrans_ftM | Avg Rank: 14.00 | MSE: 0.0823 (#15) ± 0.0039, MAE: 0.2106 (#13) ± 0.0051
+14. PEMS_pl48_unFalse_udTrue_fufeature_ebnone_fftrans_ftM | Avg Rank: 14.50 | MSE: 0.0819 (#13) ± 0.0024, MAE: 0.2112 (#16) ± 0.0030
+15. PEMS_pl48_unFalse_udTrue_futemporal_ebnone_ffmlp_ftM | Avg Rank: 15.50 | MSE: 0.0832 (#16) ± 0.0012, MAE: 0.2109 (#15) ± 0.0012
+16. PEMS_pl48_unFalse_udTrue_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 16.00 | MSE: 0.0835 (#18) ± 0.0019, MAE: 0.2108 (#14) ± 0.0028
+17. PEMS_pl48_unFalse_udTrue_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 16.50 | MSE: 0.0821 (#14) ± 0.0035, MAE: 0.2136 (#19) ± 0.0032
+18. PEMS_pl48_unFalse_udTrue_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 17.00 | MSE: 0.0833 (#17) ± 0.0027, MAE: 0.2121 (#17) ± 0.0044
+19. PEMS_pl48_unFalse_udFalse_fufeature_ebnone_fftrans_ftM | Avg Rank: 18.50 | MSE: 0.0837 (#19) ± 0.0027, MAE: 0.2131 (#18) ± 0.0037
+20. PEMS_pl48_unFalse_udFalse_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 20.50 | MSE: 0.0849 (#20) ± 0.0078, MAE: 0.2145 (#21) ± 0.0107
+21. PEMS_pl48_unFalse_udFalse_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 20.50 | MSE: 0.0853 (#21) ± 0.0005, MAE: 0.2137 (#20) ± 0.0014
+22. PEMS_pl48_unFalse_udTrue_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 22.50 | MSE: 0.0869 (#23) ± 0.0053, MAE: 0.2167 (#22) ± 0.0069
+23. PEMS_pl48_unFalse_udTrue_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 23.50 | MSE: 0.0879 (#24) ± 0.0037, MAE: 0.2187 (#23) ± 0.0051
+24. PEMS_pl48_unFalse_udFalse_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 24.50 | MSE: 0.0886 (#25) ± 0.0078, MAE: 0.2189 (#24) ± 0.0117
+25. PEMS_pl48_unFalse_udFalse_futemporal_ebpatch_fftrans_ftM | Avg Rank: 24.50 | MSE: 0.0864 (#22) ± 0.0057, MAE: 0.2208 (#27) ± 0.0090
+26. PEMS_pl48_unFalse_udFalse_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 25.50 | MSE: 0.0888 (#26) ± 0.0023, MAE: 0.2194 (#25) ± 0.0027
+27. PEMS_pl48_unFalse_udTrue_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 26.50 | MSE: 0.0894 (#27) ± 0.0024, MAE: 0.2198 (#26) ± 0.0031
+28. PEMS_pl48_unFalse_udFalse_fufeature_ebnone_ffrnn_ftM | Avg Rank: 29.00 | MSE: 0.0902 (#30) ± 0.0013, MAE: 0.2214 (#28) ± 0.0018
+29. PEMS_pl48_unFalse_udTrue_fufeature_ebnone_ffrnn_ftM | Avg Rank: 29.00 | MSE: 0.0902 (#29) ± 0.0008, MAE: 0.2220 (#29) ± 0.0010
+30. PEMS_pl48_unFalse_udTrue_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 31.00 | MSE: 0.0895 (#28) ± 0.0034, MAE: 0.2249 (#34) ± 0.0041
+31. PEMS_pl48_unFalse_udTrue_futemporal_ebtoken_fftrans_ftM | Avg Rank: 31.00 | MSE: 0.0907 (#31) ± 0.0087, MAE: 0.2231 (#31) ± 0.0121
+32. PEMS_pl48_unFalse_udFalse_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 31.50 | MSE: 0.0911 (#33) ± 0.0012, MAE: 0.2222 (#30) ± 0.0024
+33. PEMS_pl48_unFalse_udFalse_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 33.50 | MSE: 0.0909 (#32) ± 0.0025, MAE: 0.2251 (#35) ± 0.0035
+34. PEMS_pl48_unFalse_udTrue_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 33.50 | MSE: 0.0926 (#34) ± 0.0035, MAE: 0.2239 (#33) ± 0.0044
+35. PEMS_pl48_unFalse_udFalse_futemporal_ebtoken_fftrans_ftM | Avg Rank: 34.00 | MSE: 0.0932 (#36) ± 0.0030, MAE: 0.2235 (#32) ± 0.0038
+36. PEMS_pl48_unFalse_udFalse_futemporal_ebnone_ffrnn_ftM | Avg Rank: 35.50 | MSE: 0.0931 (#35) ± 0.0067, MAE: 0.2268 (#36) ± 0.0102
+37. PEMS_pl48_unFalse_udTrue_futemporal_ebnone_ffrnn_ftM | Avg Rank: 37.00 | MSE: 0.0937 (#37) ± 0.0046, MAE: 0.2277 (#37) ± 0.0059
+38. PEMS_pl48_unFalse_udTrue_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 38.00 | MSE: 0.0953 (#38) ± 0.0058, MAE: 0.2313 (#38) ± 0.0084
+39. PEMS_pl48_unFalse_udFalse_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 39.50 | MSE: 0.0974 (#39) ± 0.0028, MAE: 0.2354 (#40) ± 0.0037
+40. PEMS_pl48_unFalse_udFalse_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 40.00 | MSE: 0.0997 (#41) ± 0.0039, MAE: 0.2346 (#39) ± 0.0046
+41. PEMS_pl48_unFalse_udTrue_futemporal_ebpatch_fftrans_ftM | Avg Rank: 40.50 | MSE: 0.0980 (#40) ± 0.0036, MAE: 0.2354 (#41) ± 0.0066
+42. PEMS_pl48_unFalse_udTrue_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 42.50 | MSE: 0.1037 (#42) ± 0.0036, MAE: 0.2414 (#43) ± 0.0073
+43. PEMS_pl48_unTrue_udFalse_fufeature_ebpatch_fftrans_ftM | Avg Rank: 43.00 | MSE: 0.1064 (#44) ± 0.0018, MAE: 0.2380 (#42) ± 0.0012
+44. PEMS_pl48_unFalse_udTrue_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 43.50 | MSE: 0.1048 (#43) ± 0.0018, MAE: 0.2439 (#44) ± 0.0024
+45. PEMS_pl48_unTrue_udTrue_fufeature_ebpatch_fftrans_ftM | Avg Rank: 45.00 | MSE: 0.1082 (#45) ± 0.0036, MAE: 0.2461 (#45) ± 0.0045
+46. PEMS_pl48_unTrue_udFalse_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 46.00 | MSE: 0.1098 (#46) ± 0.0066, MAE: 0.2474 (#46) ± 0.0057
+47. PEMS_pl48_unTrue_udTrue_fufeature_ebinvert_fftrans_ftM | Avg Rank: 48.00 | MSE: 0.1112 (#48) ± 0.0048, MAE: 0.2478 (#48) ± 0.0054
+48. PEMS_pl48_unTrue_udTrue_fufeature_ebnone_fftrans_ftM | Avg Rank: 48.00 | MSE: 0.1112 (#47) ± 0.0021, MAE: 0.2480 (#49) ± 0.0027
+49. PEMS_pl48_unTrue_udFalse_fufeature_ebinvert_fftrans_ftM | Avg Rank: 48.50 | MSE: 0.1149 (#50) ± 0.0033, MAE: 0.2478 (#47) ± 0.0040
+50. PEMS_pl48_unFalse_udFalse_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 49.50 | MSE: 0.1131 (#49) ± 0.0041, MAE: 0.2522 (#50) ± 0.0057
+51. PEMS_pl48_unTrue_udTrue_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 51.50 | MSE: 0.1200 (#52) ± 0.0010, MAE: 0.2532 (#51) ± 0.0013
+52. PEMS_pl48_unTrue_udTrue_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 52.00 | MSE: 0.1187 (#51) ± 0.0015, MAE: 0.2565 (#53) ± 0.0018
+53. PEMS_pl48_unTrue_udFalse_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 52.50 | MSE: 0.1221 (#53) ± 0.0022, MAE: 0.2554 (#52) ± 0.0031
+54. PEMS_pl48_unTrue_udFalse_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 54.00 | MSE: 0.1229 (#54) ± 0.0011, MAE: 0.2602 (#54) ± 0.0015
+55. PEMS_pl48_unTrue_udFalse_fufeature_ebnone_fftrans_ftM | Avg Rank: 55.00 | MSE: 0.1249 (#55) ± 0.0007, MAE: 0.2619 (#55) ± 0.0008
+56. PEMS_pl48_unTrue_udFalse_futemporal_ebtoken_fftrans_ftM | Avg Rank: 57.00 | MSE: 0.1289 (#58) ± 0.0213, MAE: 0.2633 (#56) ± 0.0192
+57. PEMS_pl48_unTrue_udFalse_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 57.00 | MSE: 0.1270 (#57) ± 0.0039, MAE: 0.2637 (#57) ± 0.0031
+58. PEMS_pl48_unFalse_udFalse_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 58.50 | MSE: 0.1264 (#56) ± 0.0039, MAE: 0.2724 (#61) ± 0.0030
+59. PEMS_pl48_unTrue_udTrue_futemporal_ebtoken_fftrans_ftM | Avg Rank: 59.00 | MSE: 0.1294 (#59) ± 0.0100, MAE: 0.2673 (#59) ± 0.0098
+60. PEMS_pl48_unTrue_udFalse_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 60.00 | MSE: 0.1336 (#62) ± 0.0027, MAE: 0.2667 (#58) ± 0.0033
+61. PEMS_pl48_unTrue_udTrue_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 60.00 | MSE: 0.1317 (#60) ± 0.0053, MAE: 0.2699 (#60) ± 0.0054
+62. PEMS_pl48_unTrue_udTrue_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 61.50 | MSE: 0.1318 (#61) ± 0.0099, MAE: 0.2726 (#62) ± 0.0077
+63. PEMS_pl48_unTrue_udTrue_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 63.50 | MSE: 0.1431 (#64) ± 0.0039, MAE: 0.2787 (#63) ± 0.0034
+64. PEMS_pl48_unTrue_udFalse_futemporal_ebnone_ffmlp_ftM | Avg Rank: 64.50 | MSE: 0.1452 (#65) ± 0.0024, MAE: 0.2803 (#64) ± 0.0028
+65. PEMS_pl48_unFalse_udTrue_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 65.50 | MSE: 0.1413 (#63) ± 0.0081, MAE: 0.2883 (#68) ± 0.0106
+66. PEMS_pl48_unTrue_udTrue_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 65.50 | MSE: 0.1479 (#66) ± 0.0080, MAE: 0.2854 (#65) ± 0.0091
+67. PEMS_pl48_unTrue_udTrue_futemporal_ebnone_ffmlp_ftM | Avg Rank: 66.50 | MSE: 0.1491 (#67) ± 0.0026, MAE: 0.2854 (#66) ± 0.0032
+68. PEMS_pl48_unTrue_udFalse_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 68.00 | MSE: 0.1519 (#69) ± 0.0013, MAE: 0.2883 (#67) ± 0.0010
+69. PEMS_pl48_unTrue_udTrue_fufeature_ebtoken_fftrans_ftM | Avg Rank: 69.00 | MSE: 0.1501 (#68) ± 0.0065, MAE: 0.2937 (#70) ± 0.0054
+70. PEMS_pl48_unTrue_udTrue_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 69.50 | MSE: 0.1573 (#70) ± 0.0049, MAE: 0.2934 (#69) ± 0.0039
+71. PEMS_pl48_unTrue_udFalse_fufeature_ebnone_ffrnn_ftM | Avg Rank: 71.50 | MSE: 0.1610 (#72) ± 0.0011, MAE: 0.2985 (#71) ± 0.0016
+72. PEMS_pl48_unTrue_udTrue_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 73.00 | MSE: 0.1607 (#71) ± 0.0039, MAE: 0.3012 (#75) ± 0.0036
+73. PEMS_pl48_unTrue_udFalse_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 73.50 | MSE: 0.1615 (#73) ± 0.0077, MAE: 0.3008 (#74) ± 0.0078
+74. PEMS_pl48_unTrue_udFalse_fufeature_ebtoken_fftrans_ftM | Avg Rank: 73.50 | MSE: 0.1648 (#75) ± 0.0146, MAE: 0.2999 (#72) ± 0.0133
+75. PEMS_pl48_unTrue_udTrue_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 73.50 | MSE: 0.1648 (#74) ± 0.0054, MAE: 0.2999 (#73) ± 0.0053
+76. PEMS_pl48_unTrue_udFalse_futemporal_ebnone_ffrnn_ftM | Avg Rank: 76.50 | MSE: 0.1662 (#77) ± 0.0075, MAE: 0.3053 (#76) ± 0.0078
+77. PEMS_pl48_unTrue_udTrue_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 78.00 | MSE: 0.1656 (#76) ± 0.0024, MAE: 0.3066 (#80) ± 0.0021
+78. PEMS_pl48_unTrue_udTrue_futemporal_ebnone_ffrnn_ftM | Avg Rank: 79.00 | MSE: 0.1691 (#81) ± 0.0053, MAE: 0.3060 (#77) ± 0.0080
+79. PEMS_pl48_unTrue_udFalse_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 80.00 | MSE: 0.1686 (#79) ± 0.0075, MAE: 0.3087 (#81) ± 0.0074
+80. PEMS_pl48_unTrue_udTrue_fufeature_ebnone_ffrnn_ftM | Avg Rank: 80.50 | MSE: 0.1700 (#82) ± 0.0010, MAE: 0.3064 (#79) ± 0.0009
+81. PEMS_pl48_unFalse_udTrue_fufeature_ebnone_ffmlp_ftM | Avg Rank: 81.50 | MSE: 0.1668 (#78) ± 0.0073, MAE: 0.3153 (#85) ± 0.0070
+82. PEMS_pl48_unTrue_udFalse_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 81.50 | MSE: 0.1730 (#85) ± 0.0039, MAE: 0.3061 (#78) ± 0.0030
+83. PEMS_pl48_unTrue_udFalse_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 81.50 | MSE: 0.1688 (#80) ± 0.0052, MAE: 0.3101 (#83) ± 0.0032
+84. PEMS_pl48_unTrue_udTrue_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 83.00 | MSE: 0.1716 (#84) ± 0.0060, MAE: 0.3095 (#82) ± 0.0087
+85. PEMS_pl48_unTrue_udTrue_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 83.50 | MSE: 0.1709 (#83) ± 0.0180, MAE: 0.3105 (#84) ± 0.0169
+86. PEMS_pl48_unTrue_udFalse_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 86.50 | MSE: 0.1819 (#87) ± 0.0067, MAE: 0.3160 (#86) ± 0.0059
+87. PEMS_pl48_unTrue_udTrue_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 86.50 | MSE: 0.1781 (#86) ± 0.0041, MAE: 0.3175 (#87) ± 0.0037
+88. PEMS_pl48_unTrue_udFalse_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 88.50 | MSE: 0.1892 (#89) ± 0.0135, MAE: 0.3241 (#88) ± 0.0115
+89. PEMS_pl48_unTrue_udTrue_futemporal_ebpatch_fftrans_ftM | Avg Rank: 89.00 | MSE: 0.1882 (#88) ± 0.0068, MAE: 0.3266 (#90) ± 0.0077
+90. PEMS_pl48_unTrue_udFalse_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 89.50 | MSE: 0.1924 (#90) ± 0.0206, MAE: 0.3263 (#89) ± 0.0157
+91. PEMS_pl48_unTrue_udFalse_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 91.00 | MSE: 0.2200 (#91) ± 0.0076, MAE: 0.3501 (#91) ± 0.0053
+92. PEMS_pl48_unTrue_udTrue_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 92.00 | MSE: 0.2243 (#92) ± 0.0027, MAE: 0.3557 (#92) ± 0.0026
+93. PEMS_pl48_unTrue_udTrue_fufeature_ebnone_ffmlp_ftM | Avg Rank: 93.00 | MSE: 0.2363 (#93) ± 0.0015, MAE: 0.3583 (#93) ± 0.0015
+94. PEMS_pl48_unFalse_udFalse_fufeature_ebnone_ffmlp_ftM | Avg Rank: 94.50 | MSE: 0.2595 (#94) ± 0.0021, MAE: 0.4069 (#95) ± 0.0026
+95. PEMS_pl48_unTrue_udFalse_futemporal_ebpatch_fftrans_ftM | Avg Rank: 94.50 | MSE: 0.2816 (#95) ± 0.0433, MAE: 0.3922 (#94) ± 0.0357
+96. PEMS_pl48_unTrue_udFalse_fufeature_ebnone_ffmlp_ftM | Avg Rank: 96.00 | MSE: 0.3630 (#96) ± 0.0033, MAE: 0.4540 (#96) ± 0.0019

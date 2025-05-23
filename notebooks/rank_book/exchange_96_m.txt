@@ -1,0 +1,103 @@
+Setup Ranking (Lower is Better):
+ 1. custom_pl96_unTrue_udTrue_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 1.00 | MSE: 0.0821 (#1) ± 0.0016, MAE: 0.1974 (#1) ± 0.0011
+ 2. custom_pl96_unTrue_udTrue_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 2.50 | MSE: 0.0823 (#3) ± 0.0009, MAE: 0.1978 (#2) ± 0.0012
+ 3. custom_pl96_unTrue_udFalse_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 3.00 | MSE: 0.0823 (#2) ± 0.0009, MAE: 0.1988 (#4) ± 0.0011
+ 4. custom_pl96_unTrue_udFalse_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 4.00 | MSE: 0.0828 (#5) ± 0.0023, MAE: 0.1987 (#3) ± 0.0030
+ 5. custom_pl96_unTrue_udFalse_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 6.00 | MSE: 0.0829 (#6) ± 0.0007, MAE: 0.1994 (#6) ± 0.0007
+ 6. custom_pl96_unTrue_udFalse_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 6.00 | MSE: 0.0833 (#7) ± 0.0010, MAE: 0.1988 (#5) ± 0.0014
+ 7. custom_pl96_unTrue_udFalse_futemporal_ebpatch_fftrans_ftM | Avg Rank: 6.00 | MSE: 0.0827 (#4) ± 0.0012, MAE: 0.2002 (#8) ± 0.0013
+ 8. custom_pl96_unTrue_udTrue_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 8.00 | MSE: 0.0836 (#9) ± 0.0010, MAE: 0.2000 (#7) ± 0.0012
+ 9. custom_pl96_unTrue_udTrue_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 9.50 | MSE: 0.0839 (#10) ± 0.0019, MAE: 0.2004 (#9) ± 0.0020
+10. custom_pl96_unTrue_udFalse_futemporal_ebnone_ffmlp_ftM | Avg Rank: 10.50 | MSE: 0.0845 (#11) ± 0.0010, MAE: 0.2017 (#10) ± 0.0015
+11. custom_pl96_unTrue_udTrue_futemporal_ebnone_ffmlp_ftM | Avg Rank: 11.50 | MSE: 0.0851 (#12) ± 0.0033, MAE: 0.2027 (#11) ± 0.0040
+12. custom_pl96_unTrue_udTrue_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 12.50 | MSE: 0.0855 (#13) ± 0.0011, MAE: 0.2030 (#12) ± 0.0014
+13. custom_pl96_unFalse_udFalse_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 13.00 | MSE: 0.0835 (#8) ± 0.0013, MAE: 0.2083 (#18) ± 0.0016
+14. custom_pl96_unTrue_udFalse_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 13.50 | MSE: 0.0855 (#14) ± 0.0034, MAE: 0.2033 (#13) ± 0.0034
+15. custom_pl96_unTrue_udTrue_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 15.00 | MSE: 0.0861 (#16) ± 0.0031, MAE: 0.2050 (#14) ± 0.0040
+16. custom_pl96_unTrue_udTrue_fufeature_ebnone_fftrans_ftM | Avg Rank: 15.00 | MSE: 0.0860 (#15) ± 0.0009, MAE: 0.2057 (#15) ± 0.0011
+17. custom_pl96_unTrue_udFalse_fufeature_ebinvert_fftrans_ftM | Avg Rank: 17.50 | MSE: 0.0871 (#18) ± 0.0009, MAE: 0.2077 (#17) ± 0.0013
+18. custom_pl96_unTrue_udFalse_fufeature_ebpatch_fftrans_ftM | Avg Rank: 18.00 | MSE: 0.0886 (#20) ± 0.0026, MAE: 0.2063 (#16) ± 0.0021
+19. custom_pl96_unTrue_udFalse_fufeature_ebnone_fftrans_ftM | Avg Rank: 19.00 | MSE: 0.0874 (#19) ± 0.0008, MAE: 0.2084 (#19) ± 0.0009
+20. custom_pl96_unFalse_udTrue_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 20.50 | MSE: 0.0865 (#17) ± 0.0025, MAE: 0.2135 (#24) ± 0.0034
+21. custom_pl96_unTrue_udFalse_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 21.00 | MSE: 0.0891 (#21) ± 0.0048, MAE: 0.2108 (#21) ± 0.0051
+22. custom_pl96_unTrue_udFalse_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 22.00 | MSE: 0.0920 (#24) ± 0.0050, MAE: 0.2101 (#20) ± 0.0058
+23. custom_pl96_unTrue_udTrue_fufeature_ebinvert_fftrans_ftM | Avg Rank: 22.00 | MSE: 0.0899 (#22) ± 0.0030, MAE: 0.2112 (#22) ± 0.0034
+24. custom_pl96_unTrue_udFalse_fufeature_ebnone_ffrnn_ftM | Avg Rank: 23.00 | MSE: 0.0899 (#23) ± 0.0019, MAE: 0.2129 (#23) ± 0.0023
+25. custom_pl96_unTrue_udTrue_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 25.50 | MSE: 0.0927 (#26) ± 0.0021, MAE: 0.2142 (#25) ± 0.0024
+26. custom_pl96_unTrue_udTrue_fufeature_ebnone_ffrnn_ftM | Avg Rank: 25.50 | MSE: 0.0920 (#25) ± 0.0029, MAE: 0.2146 (#26) ± 0.0029
+27. custom_pl96_unTrue_udTrue_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 27.00 | MSE: 0.0931 (#27) ± 0.0022, MAE: 0.2165 (#27) ± 0.0025
+28. custom_pl96_unTrue_udTrue_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 28.50 | MSE: 0.0939 (#28) ± 0.0028, MAE: 0.2186 (#29) ± 0.0036
+29. custom_pl96_unTrue_udTrue_fufeature_ebtoken_fftrans_ftM | Avg Rank: 30.00 | MSE: 0.0948 (#30) ± 0.0021, MAE: 0.2189 (#30) ± 0.0019
+30. custom_pl96_unTrue_udFalse_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 31.00 | MSE: 0.0958 (#31) ± 0.0063, MAE: 0.2195 (#31) ± 0.0058
+31. custom_pl96_unFalse_udFalse_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 32.00 | MSE: 0.0940 (#29) ± 0.0040, MAE: 0.2247 (#35) ± 0.0078
+32. custom_pl96_unTrue_udFalse_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 32.00 | MSE: 0.0970 (#32) ± 0.0077, MAE: 0.2200 (#32) ± 0.0059
+33. custom_pl96_unTrue_udTrue_fufeature_ebpatch_fftrans_ftM | Avg Rank: 32.00 | MSE: 0.1001 (#36) ± 0.0071, MAE: 0.2180 (#28) ± 0.0068
+34. custom_pl96_unTrue_udFalse_fufeature_ebtoken_fftrans_ftM | Avg Rank: 33.50 | MSE: 0.0989 (#34) ± 0.0067, MAE: 0.2235 (#33) ± 0.0070
+35. custom_pl96_unTrue_udFalse_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 34.50 | MSE: 0.0996 (#35) ± 0.0027, MAE: 0.2245 (#34) ± 0.0031
+36. custom_pl96_unFalse_udTrue_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 35.00 | MSE: 0.0971 (#33) ± 0.0084, MAE: 0.2270 (#37) ± 0.0072
+37. custom_pl96_unTrue_udTrue_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 36.50 | MSE: 0.1002 (#37) ± 0.0065, MAE: 0.2261 (#36) ± 0.0083
+38. custom_pl96_unTrue_udFalse_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 38.00 | MSE: 0.1009 (#38) ± 0.0044, MAE: 0.2274 (#38) ± 0.0057
+39. custom_pl96_unTrue_udFalse_fufeature_ebnone_ffmlp_ftM | Avg Rank: 39.00 | MSE: 0.1061 (#39) ± 0.0030, MAE: 0.2338 (#39) ± 0.0034
+40. custom_pl96_unTrue_udFalse_futemporal_ebnone_ffrnn_ftM | Avg Rank: 40.00 | MSE: 0.1072 (#40) ± 0.0024, MAE: 0.2343 (#40) ± 0.0026
+41. custom_pl96_unTrue_udTrue_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 41.00 | MSE: 0.1072 (#41) ± 0.0020, MAE: 0.2357 (#41) ± 0.0026
+42. custom_pl96_unTrue_udTrue_fufeature_ebnone_ffmlp_ftM | Avg Rank: 42.00 | MSE: 0.1097 (#42) ± 0.0024, MAE: 0.2384 (#42) ± 0.0022
+43. custom_pl96_unTrue_udFalse_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 44.00 | MSE: 0.1142 (#45) ± 0.0059, MAE: 0.2415 (#43) ± 0.0057
+44. custom_pl96_unFalse_udTrue_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 44.50 | MSE: 0.1105 (#43) ± 0.0166, MAE: 0.2460 (#46) ± 0.0171
+45. custom_pl96_unTrue_udTrue_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 45.50 | MSE: 0.1166 (#46) ± 0.0040, MAE: 0.2451 (#45) ± 0.0035
+46. custom_pl96_unTrue_udTrue_futemporal_ebnone_ffrnn_ftM | Avg Rank: 45.50 | MSE: 0.1185 (#47) ± 0.0081, MAE: 0.2443 (#44) ± 0.0072
+47. custom_pl96_unFalse_udFalse_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 46.00 | MSE: 0.1139 (#44) ± 0.0090, MAE: 0.2488 (#48) ± 0.0060
+48. custom_pl96_unTrue_udTrue_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 48.00 | MSE: 0.1209 (#49) ± 0.0034, MAE: 0.2487 (#47) ± 0.0032
+49. custom_pl96_unFalse_udFalse_futemporal_ebnone_ffmlp_ftM | Avg Rank: 48.50 | MSE: 0.1192 (#48) ± 0.0056, MAE: 0.2530 (#49) ± 0.0071
+50. custom_pl96_unFalse_udTrue_futemporal_ebnone_ffmlp_ftM | Avg Rank: 50.50 | MSE: 0.1243 (#50) ± 0.0064, MAE: 0.2561 (#51) ± 0.0065
+51. custom_pl96_unTrue_udFalse_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 51.00 | MSE: 0.1292 (#52) ± 0.0182, MAE: 0.2541 (#50) ± 0.0139
+52. custom_pl96_unFalse_udTrue_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 52.50 | MSE: 0.1247 (#51) ± 0.0114, MAE: 0.2602 (#54) ± 0.0105
+53. custom_pl96_unTrue_udFalse_futemporal_ebinvert_fftrans_ftM | Avg Rank: 53.50 | MSE: 0.1324 (#54) ± 0.0144, MAE: 0.2579 (#53) ± 0.0117
+54. custom_pl96_unTrue_udFalse_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 53.50 | MSE: 0.1328 (#55) ± 0.0050, MAE: 0.2569 (#52) ± 0.0053
+55. custom_pl96_unTrue_udTrue_futemporal_ebtoken_fftrans_ftM | Avg Rank: 54.00 | MSE: 0.1294 (#53) ± 0.0049, MAE: 0.2603 (#55) ± 0.0051
+56. custom_pl96_unTrue_udFalse_futemporal_ebnone_fftrans_ftM | Avg Rank: 56.00 | MSE: 0.1328 (#56) ± 0.0118, MAE: 0.2618 (#56) ± 0.0088
+57. custom_pl96_unTrue_udTrue_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 57.50 | MSE: 0.1352 (#57) ± 0.0028, MAE: 0.2641 (#58) ± 0.0041
+58. custom_pl96_unTrue_udTrue_futemporal_ebnone_fftrans_ftM | Avg Rank: 58.50 | MSE: 0.1360 (#58) ± 0.0043, MAE: 0.2648 (#59) ± 0.0064
+59. custom_pl96_unTrue_udTrue_futemporal_ebinvert_fftrans_ftM | Avg Rank: 59.00 | MSE: 0.1383 (#61) ± 0.0077, MAE: 0.2628 (#57) ± 0.0083
+60. custom_pl96_unFalse_udFalse_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 60.00 | MSE: 0.1361 (#59) ± 0.0111, MAE: 0.2698 (#61) ± 0.0133
+61. custom_pl96_unFalse_udTrue_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 60.00 | MSE: 0.1370 (#60) ± 0.0185, MAE: 0.2655 (#60) ± 0.0159
+62. custom_pl96_unTrue_udFalse_futemporal_ebtoken_fftrans_ftM | Avg Rank: 62.50 | MSE: 0.1454 (#63) ± 0.0212, MAE: 0.2705 (#62) ± 0.0162
+63. custom_pl96_unFalse_udFalse_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 63.50 | MSE: 0.1460 (#64) ± 0.0059, MAE: 0.2756 (#63) ± 0.0066
+64. custom_pl96_unFalse_udFalse_futemporal_ebpatch_fftrans_ftM | Avg Rank: 64.00 | MSE: 0.1392 (#62) ± 0.0101, MAE: 0.2917 (#66) ± 0.0216
+65. custom_pl96_unFalse_udTrue_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 64.50 | MSE: 0.1530 (#65) ± 0.0062, MAE: 0.2796 (#64) ± 0.0058
+66. custom_pl96_unFalse_udFalse_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 65.50 | MSE: 0.1531 (#66) ± 0.0180, MAE: 0.2805 (#65) ± 0.0179
+67. custom_pl96_unFalse_udFalse_fufeature_ebpatch_fftrans_ftM | Avg Rank: 67.50 | MSE: 0.1779 (#68) ± 0.0106, MAE: 0.3085 (#67) ± 0.0136
+68. custom_pl96_unFalse_udTrue_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 67.50 | MSE: 0.1739 (#67) ± 0.0126, MAE: 0.3139 (#68) ± 0.0119
+69. custom_pl96_unFalse_udTrue_fufeature_ebpatch_fftrans_ftM | Avg Rank: 69.00 | MSE: 0.1866 (#69) ± 0.0094, MAE: 0.3274 (#69) ± 0.0078
+70. custom_pl96_unFalse_udFalse_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 70.00 | MSE: 0.2015 (#70) ± 0.0240, MAE: 0.3380 (#70) ± 0.0194
+71. custom_pl96_unFalse_udFalse_fufeature_ebnone_ffrnn_ftM | Avg Rank: 71.00 | MSE: 0.2476 (#71) ± 0.0619, MAE: 0.3732 (#71) ± 0.0482
+72. custom_pl96_unFalse_udTrue_fufeature_ebnone_ffrnn_ftM | Avg Rank: 72.00 | MSE: 0.2624 (#72) ± 0.0347, MAE: 0.3852 (#72) ± 0.0253
+73. custom_pl96_unFalse_udFalse_fufeature_ebinvert_fftrans_ftM | Avg Rank: 73.00 | MSE: 0.3111 (#73) ± 0.0087, MAE: 0.4035 (#73) ± 0.0069
+74. custom_pl96_unFalse_udTrue_fufeature_ebinvert_fftrans_ftM | Avg Rank: 74.00 | MSE: 0.3132 (#74) ± 0.0260, MAE: 0.4051 (#74) ± 0.0146
+75. custom_pl96_unFalse_udFalse_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 75.50 | MSE: 0.3866 (#76) ± 0.1830, MAE: 0.4912 (#75) ± 0.1150
+76. custom_pl96_unFalse_udTrue_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 75.50 | MSE: 0.3832 (#75) ± 0.0761, MAE: 0.4925 (#76) ± 0.0402
+77. custom_pl96_unFalse_udFalse_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 77.50 | MSE: 0.4034 (#77) ± 0.0243, MAE: 0.5078 (#78) ± 0.0152
+78. custom_pl96_unFalse_udTrue_fufeature_ebnone_fftrans_ftM | Avg Rank: 77.50 | MSE: 0.4141 (#78) ± 0.0104, MAE: 0.4930 (#77) ± 0.0070
+79. custom_pl96_unFalse_udFalse_fufeature_ebnone_fftrans_ftM | Avg Rank: 79.00 | MSE: 0.4419 (#79) ± 0.0348, MAE: 0.5085 (#79) ± 0.0210
+80. custom_pl96_unFalse_udTrue_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 80.00 | MSE: 0.4445 (#80) ± 0.0969, MAE: 0.5335 (#80) ± 0.0591
+81. custom_pl96_unFalse_udFalse_futemporal_ebnone_ffrnn_ftM | Avg Rank: 81.00 | MSE: 0.6108 (#81) ± 0.0535, MAE: 0.6331 (#81) ± 0.0312
+82. custom_pl96_unFalse_udTrue_futemporal_ebnone_ffrnn_ftM | Avg Rank: 82.00 | MSE: 0.6383 (#82) ± 0.0404, MAE: 0.6408 (#82) ± 0.0306
+83. custom_pl96_unFalse_udTrue_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 83.50 | MSE: 0.7163 (#83) ± 0.0161, MAE: 0.7098 (#84) ± 0.0135
+84. custom_pl96_unFalse_udTrue_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 84.50 | MSE: 0.7881 (#86) ± 0.1940, MAE: 0.7053 (#83) ± 0.0665
+85. custom_pl96_unFalse_udFalse_fufeature_ebtoken_fftrans_ftM | Avg Rank: 85.00 | MSE: 0.7474 (#84) ± 0.0912, MAE: 0.7145 (#86) ± 0.0365
+86. custom_pl96_unFalse_udTrue_fufeature_ebtoken_fftrans_ftM | Avg Rank: 86.00 | MSE: 0.8095 (#87) ± 0.1945, MAE: 0.7134 (#85) ± 0.1210
+87. custom_pl96_unFalse_udFalse_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 86.50 | MSE: 0.7809 (#85) ± 0.0410, MAE: 0.7452 (#88) ± 0.0353
+88. custom_pl96_unFalse_udTrue_futemporal_ebtoken_fftrans_ftM | Avg Rank: 87.50 | MSE: 0.8302 (#88) ± 0.0659, MAE: 0.7230 (#87) ± 0.0317
+89. custom_pl96_unFalse_udTrue_fufeature_ebnone_ffmlp_ftM | Avg Rank: 90.00 | MSE: 0.8874 (#91) ± 0.0687, MAE: 0.7504 (#89) ± 0.0300
+90. custom_pl96_unFalse_udFalse_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 90.50 | MSE: 0.8362 (#89) ± 0.3132, MAE: 0.7584 (#92) ± 0.1353
+91. custom_pl96_unFalse_udFalse_fufeature_ebnone_ffmlp_ftM | Avg Rank: 90.50 | MSE: 0.8618 (#90) ± 0.0774, MAE: 0.7527 (#91) ± 0.0370
+92. custom_pl96_unFalse_udFalse_futemporal_ebtoken_fftrans_ftM | Avg Rank: 91.00 | MSE: 0.8916 (#92) ± 0.0622, MAE: 0.7522 (#90) ± 0.0307
+93. custom_pl96_unFalse_udTrue_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 93.00 | MSE: 1.0049 (#93) ± 0.2669, MAE: 0.8291 (#93) ± 0.1201
+94. custom_pl96_unFalse_udFalse_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 94.00 | MSE: 1.0653 (#94) ± 0.1243, MAE: 0.8359 (#94) ± 0.0448
+95. custom_pl96_unFalse_udFalse_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 95.00 | MSE: 1.0853 (#95) ± 0.1655, MAE: 0.8651 (#95) ± 0.0641
+96. custom_pl96_unFalse_udTrue_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 96.50 | MSE: 1.2829 (#97) ± 0.1891, MAE: 0.9079 (#96) ± 0.0631
+97. custom_pl96_unFalse_udTrue_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 96.50 | MSE: 1.2777 (#96) ± 0.3444, MAE: 0.9118 (#97) ± 0.1272
+98. custom_pl96_unFalse_udFalse_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 98.00 | MSE: 1.4482 (#98) ± 0.1580, MAE: 0.9733 (#98) ± 0.0522
+99. custom_pl96_unFalse_udFalse_futemporal_ebinvert_fftrans_ftM | Avg Rank: 99.00 | MSE: 1.9688 (#99) ± 0.0337, MAE: 1.1854 (#99) ± 0.0151
+100. custom_pl96_unFalse_udTrue_futemporal_ebinvert_fftrans_ftM | Avg Rank: 100.00 | MSE: 1.9844 (#100) ± 0.1232, MAE: 1.2149 (#100) ± 0.0368
+101. custom_pl96_unFalse_udTrue_futemporal_ebnone_fftrans_ftM | Avg Rank: 101.00 | MSE: 2.2816 (#101) ± 0.0976, MAE: 1.2861 (#101) ± 0.0174
+102. custom_pl96_unFalse_udFalse_futemporal_ebnone_fftrans_ftM | Avg Rank: 102.00 | MSE: 2.3459 (#102) ± 0.0303, MAE: 1.2943 (#102) ± 0.0147

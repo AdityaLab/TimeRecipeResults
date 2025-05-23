@@ -1,0 +1,312 @@
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebtoken_ffmlp_ftM  
+mse:4.4714202880859375, mae:1.5545344352722168
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebtoken_ffrnn_ftM  
+mse:5.708906173706055, mae:1.6702682971954346
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebtoken_fftrans_ftM  
+mse:5.411362648010254, mae:1.6204098463058472
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebpatch_ffmlp_ftM  
+mse:5.582888126373291, mae:1.654702067375183
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebpatch_ffrnn_ftM  
+mse:4.96846866607666, mae:1.5618643760681152
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebpatch_fftrans_ftM  
+mse:5.8509368896484375, mae:1.7599499225616455
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebinvert_ffmlp_ftM  
+mse:5.835365295410156, mae:1.7003191709518433
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebinvert_ffrnn_ftM  
+mse:4.023237705230713, mae:1.3218541145324707
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebinvert_fftrans_ftM  
+mse:6.676094055175781, mae:1.7903072834014893
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebfreq_ffmlp_ftM  
+mse:3.0381782054901123, mae:1.16631019115448
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebnone_ffmlp_ftM  
+mse:5.388392925262451, mae:1.6473584175109863
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebnone_ffrnn_ftM  
+mse:5.791954040527344, mae:1.6327358484268188
+
+custom_pl48_sd2022_unFalse_udFalse_futemporal_ebnone_fftrans_ftM  
+mse:6.967507362365723, mae:1.8534687757492065
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebtoken_ffmlp_ftM  
+mse:5.296111583709717, mae:1.589274525642395
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebtoken_ffrnn_ftM  
+mse:4.86928129196167, mae:1.519771933555603
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebtoken_fftrans_ftM  
+mse:4.049079895019531, mae:1.407481074333191
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebpatch_ffmlp_ftM  
+mse:5.205010414123535, mae:1.5572131872177124
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebpatch_ffrnn_ftM  
+mse:5.295428276062012, mae:1.5920172929763794
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebpatch_fftrans_ftM  
+mse:5.08052921295166, mae:1.584466576576233
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebinvert_ffmlp_ftM  
+mse:5.797072410583496, mae:1.6819491386413574
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebinvert_ffrnn_ftM  
+mse:6.020816326141357, mae:1.799700379371643
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebinvert_fftrans_ftM  
+mse:4.770112991333008, mae:1.5421433448791504
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebfreq_ffmlp_ftM  
+mse:5.113949298858643, mae:1.5796324014663696
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebnone_ffmlp_ftM  
+mse:4.605968952178955, mae:1.510603904724121
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebnone_ffrnn_ftM  
+mse:4.963471412658691, mae:1.5436267852783203
+
+custom_pl48_sd2022_unFalse_udFalse_fufeature_ebnone_fftrans_ftM  
+mse:5.011232852935791, mae:1.5675594806671143
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebtoken_ffmlp_ftM  
+mse:4.502849102020264, mae:1.511368751525879
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebtoken_ffrnn_ftM  
+mse:6.355379581451416, mae:1.8205612897872925
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebtoken_fftrans_ftM  
+mse:5.097870826721191, mae:1.5605050325393677
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebpatch_ffmlp_ftM  
+mse:5.040226936340332, mae:1.5522929430007935
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebpatch_ffrnn_ftM  
+mse:4.221153736114502, mae:1.459252119064331
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebpatch_fftrans_ftM  
+mse:5.673015117645264, mae:1.7370750904083252
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebinvert_ffmlp_ftM  
+mse:4.64597749710083, mae:1.4878275394439697
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebinvert_ffrnn_ftM  
+mse:3.4798402786254883, mae:1.2379122972488403
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebinvert_fftrans_ftM  
+mse:6.677009582519531, mae:1.7980828285217285
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebfreq_ffmlp_ftM  
+mse:3.4743006229400635, mae:1.259366750717163
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebnone_ffmlp_ftM  
+mse:4.702380180358887, mae:1.507904291152954
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebnone_ffrnn_ftM  
+mse:4.634055137634277, mae:1.495477557182312
+
+custom_pl48_sd2022_unFalse_udTrue_futemporal_ebnone_fftrans_ftM  
+mse:7.277150630950928, mae:1.9288407564163208
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebtoken_ffmlp_ftM  
+mse:5.248954772949219, mae:1.6140398979187012
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebtoken_ffrnn_ftM  
+mse:4.9063639640808105, mae:1.5495250225067139
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebtoken_fftrans_ftM  
+mse:4.1073760986328125, mae:1.3773571252822876
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebpatch_ffmlp_ftM  
+mse:5.947967529296875, mae:1.7164885997772217
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebpatch_ffrnn_ftM  
+mse:5.325230121612549, mae:1.6116198301315308
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebpatch_fftrans_ftM  
+mse:4.868149280548096, mae:1.5501539707183838
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebinvert_ffmlp_ftM  
+mse:4.325186252593994, mae:1.3965965509414673
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebinvert_ffrnn_ftM  
+mse:5.0120439529418945, mae:1.5792704820632935
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebinvert_fftrans_ftM  
+mse:5.229713439941406, mae:1.6447868347167969
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebfreq_ffmlp_ftM  
+mse:5.517691612243652, mae:1.6798583269119263
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebnone_ffmlp_ftM  
+mse:5.396687030792236, mae:1.7128617763519287
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebnone_ffrnn_ftM  
+mse:4.950838565826416, mae:1.5609592199325562
+
+custom_pl48_sd2022_unFalse_udTrue_fufeature_ebnone_fftrans_ftM  
+mse:4.780251979827881, mae:1.5234695672988892
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebtoken_ffmlp_ftM  
+mse:1.9091750383377075, mae:0.8934589624404907
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebtoken_ffrnn_ftM  
+mse:2.4505393505096436, mae:1.071239948272705
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebtoken_fftrans_ftM  
+mse:2.339143753051758, mae:1.0198522806167603
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebpatch_ffmlp_ftM  
+mse:2.2322065830230713, mae:0.9197063446044922
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebpatch_ffrnn_ftM  
+mse:2.5412676334381104, mae:1.0367321968078613
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebpatch_fftrans_ftM  
+mse:2.2775521278381348, mae:0.9663243889808655
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebinvert_ffmlp_ftM  
+mse:2.091233015060425, mae:0.9027189612388611
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebinvert_ffrnn_ftM  
+mse:2.513521909713745, mae:0.9729548692703247
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebinvert_fftrans_ftM  
+mse:4.258347034454346, mae:1.4422510862350464
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebfreq_ffmlp_ftM  
+mse:2.000004529953003, mae:0.8930244445800781
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebnone_ffmlp_ftM  
+mse:2.198975086212158, mae:0.9554734826087952
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebnone_ffrnn_ftM  
+mse:2.775217056274414, mae:1.1036378145217896
+
+custom_pl48_sd2022_unTrue_udFalse_futemporal_ebnone_fftrans_ftM  
+mse:4.328242778778076, mae:1.4937883615493774
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebtoken_ffmlp_ftM  
+mse:2.8166112899780273, mae:1.114368200302124
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebtoken_ffrnn_ftM  
+mse:2.1435492038726807, mae:0.9279965162277222
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebtoken_fftrans_ftM  
+mse:2.2252399921417236, mae:0.942762017250061
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebpatch_ffmlp_ftM  
+mse:2.4958579540252686, mae:1.0248240232467651
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebpatch_ffrnn_ftM  
+mse:2.300374746322632, mae:0.9317408204078674
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebpatch_fftrans_ftM  
+mse:1.999072790145874, mae:0.8636869788169861
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebinvert_ffmlp_ftM  
+mse:2.4037747383117676, mae:0.9535433650016785
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebinvert_ffrnn_ftM  
+mse:2.1720263957977295, mae:0.9195337891578674
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebinvert_fftrans_ftM  
+mse:2.115511417388916, mae:0.9099350571632385
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebfreq_ffmlp_ftM  
+mse:3.081756114959717, mae:1.1924885511398315
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebnone_ffmlp_ftM  
+mse:2.9946954250335693, mae:1.1609212160110474
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebnone_ffrnn_ftM  
+mse:2.1600680351257324, mae:0.9559899568557739
+
+custom_pl48_sd2022_unTrue_udFalse_fufeature_ebnone_fftrans_ftM  
+mse:2.704497814178467, mae:1.0996558666229248
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebtoken_ffmlp_ftM  
+mse:2.1843345165252686, mae:0.9270419478416443
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebtoken_ffrnn_ftM  
+mse:2.1437768936157227, mae:0.9521685242652893
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebtoken_fftrans_ftM  
+mse:2.2938642501831055, mae:0.9860531091690063
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebpatch_ffmlp_ftM  
+mse:2.2804975509643555, mae:0.9456544518470764
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebpatch_ffrnn_ftM  
+mse:2.4848976135253906, mae:1.0222392082214355
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebpatch_fftrans_ftM  
+mse:2.534653902053833, mae:0.992429792881012
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebinvert_ffmlp_ftM  
+mse:2.3446433544158936, mae:0.9732303023338318
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebinvert_ffrnn_ftM  
+mse:2.503472089767456, mae:0.9847769141197205
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebinvert_fftrans_ftM  
+mse:4.386857986450195, mae:1.4818066358566284
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebfreq_ffmlp_ftM  
+mse:2.0267484188079834, mae:0.9170223474502563
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebnone_ffmlp_ftM  
+mse:2.269221305847168, mae:0.9690858721733093
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebnone_ffrnn_ftM  
+mse:2.670137882232666, mae:1.069748044013977
+
+custom_pl48_sd2022_unTrue_udTrue_futemporal_ebnone_fftrans_ftM  
+mse:4.344503402709961, mae:1.5022386312484741
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebtoken_ffmlp_ftM  
+mse:2.747706651687622, mae:1.066976547241211
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebtoken_ffrnn_ftM  
+mse:2.258899211883545, mae:0.9451881051063538
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebtoken_fftrans_ftM  
+mse:2.2419536113739014, mae:0.9471375942230225
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebpatch_ffmlp_ftM  
+mse:2.4985456466674805, mae:1.044908881187439
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebpatch_ffrnn_ftM  
+mse:2.5348169803619385, mae:1.0028871297836304
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebpatch_fftrans_ftM  
+mse:2.1247124671936035, mae:0.8999601602554321
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebinvert_ffmlp_ftM  
+mse:2.5158631801605225, mae:1.0008094310760498
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebinvert_ffrnn_ftM  
+mse:2.2401771545410156, mae:0.9377604722976685
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebinvert_fftrans_ftM  
+mse:1.9265590906143188, mae:0.8653280138969421
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebfreq_ffmlp_ftM  
+mse:2.7224881649017334, mae:1.0982214212417603
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebnone_ffmlp_ftM  
+mse:3.3770861625671387, mae:1.2213658094406128
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebnone_ffrnn_ftM  
+mse:2.2190065383911133, mae:0.9594262838363647
+
+custom_pl48_sd2022_unTrue_udTrue_fufeature_ebnone_fftrans_ftM  
+mse:2.380096912384033, mae:1.01243257522583
+

@@ -1,0 +1,97 @@
+Setup Ranking by Avg Rank (SMAPE, MASE, OWA) – Lower is Better:
+ 1. m4_pl18_unTrue_udTrue_fufeature_ebinvert_fftrans_ftM | Avg Rank: 2.00 | SMAPE: 12.5925 (#4) ± 0.0355, MASE:  0.9193 (#1) ± 0.0033, OWA:   0.8682 (#1) ± 0.0022
+ 2. m4_pl18_unFalse_udTrue_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 3.00 | SMAPE: 12.5025 (#1) ± 0.0246, MASE:  0.9273 (#6) ± 0.0022, OWA:   0.8693 (#2) ± 0.0010
+ 3. m4_pl18_unTrue_udTrue_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 3.33 | SMAPE: 12.5617 (#3) ± 0.0175, MASE:  0.9253 (#4) ± 0.0010, OWA:   0.8705 (#3) ± 0.0006
+ 4. m4_pl18_unTrue_udFalse_fufeature_ebinvert_fftrans_ftM | Avg Rank: 4.33 | SMAPE: 12.6427 (#6) ± 0.0308, MASE:  0.9195 (#2) ± 0.0013, OWA:   0.8708 (#5) ± 0.0015
+ 5. m4_pl18_unFalse_udTrue_futemporal_ebnone_ffmlp_ftM | Avg Rank: 5.33 | SMAPE: 12.5102 (#2) ± 0.0297, MASE:  0.9290 (#10) ± 0.0028, OWA:   0.8708 (#4) ± 0.0024
+ 6. m4_pl18_unTrue_udTrue_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 5.67 | SMAPE: 12.6077 (#5) ± 0.0308, MASE:  0.9258 (#5) ± 0.0031, OWA:   0.8725 (#7) ± 0.0024
+ 7. m4_pl18_unTrue_udTrue_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 5.67 | SMAPE: 12.6585 (#8) ± 0.0145, MASE:  0.9223 (#3) ± 0.0031, OWA:   0.8723 (#6) ± 0.0017
+ 8. m4_pl18_unTrue_udFalse_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 10.00 | SMAPE: 12.6908 (#15) ± 0.0274, MASE:  0.9277 (#7) ± 0.0030, OWA:   0.8760 (#8) ± 0.0022
+ 9. m4_pl18_unTrue_udTrue_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 10.33 | SMAPE: 12.6453 (#7) ± 0.0228, MASE:  0.9335 (#13) ± 0.0091, OWA:   0.8770 (#11) ± 0.0048
+10. m4_pl18_unTrue_udTrue_fufeature_ebpatch_fftrans_ftM | Avg Rank: 10.33 | SMAPE: 12.6900 (#14) ± 0.0171, MASE:  0.9280 (#8) ± 0.0022, OWA:   0.8762 (#9) ± 0.0015
+11. m4_pl18_unTrue_udFalse_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 11.33 | SMAPE: 12.6827 (#11) ± 0.0146, MASE:  0.9310 (#11) ± 0.0014, OWA:   0.8775 (#12) ± 0.0006
+12. m4_pl18_unTrue_udFalse_fufeature_ebpatch_fftrans_ftM | Avg Rank: 12.33 | SMAPE: 12.7063 (#18) ± 0.0424, MASE:  0.9287 (#9) ± 0.0022, OWA:   0.8770 (#10) ± 0.0018
+13. m4_pl18_unTrue_udTrue_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 13.33 | SMAPE: 12.6832 (#12) ± 0.0253, MASE:  0.9367 (#14) ± 0.0053, OWA:   0.8802 (#14) ± 0.0034
+14. m4_pl18_unTrue_udFalse_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 13.67 | SMAPE: 12.6585 (#9) ± 0.0151, MASE:  0.9400 (#17) ± 0.0029, OWA:   0.8808 (#15) ± 0.0013
+15. m4_pl18_unTrue_udTrue_fufeature_ebtoken_fftrans_ftM | Avg Rank: 13.67 | SMAPE: 12.6925 (#16) ± 0.0347, MASE:  0.9325 (#12) ± 0.0034, OWA:   0.8785 (#13) ± 0.0026
+16. m4_pl18_unTrue_udTrue_futemporal_ebnone_ffmlp_ftM | Avg Rank: 17.00 | SMAPE: 12.7145 (#19) ± 0.0212, MASE:  0.9395 (#16) ± 0.0037, OWA:   0.8825 (#16) ± 0.0026
+17. m4_pl18_unTrue_udFalse_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 17.67 | SMAPE: 12.7525 (#21) ± 0.0258, MASE:  0.9387 (#15) ± 0.0032, OWA:   0.8832 (#17) ± 0.0017
+18. m4_pl18_unTrue_udTrue_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 18.67 | SMAPE: 12.7335 (#20) ± 0.0171, MASE:  0.9402 (#18) ± 0.0019, OWA:   0.8835 (#18) ± 0.0006
+19. m4_pl18_unTrue_udTrue_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 20.33 | SMAPE: 12.6632 (#10) ± 0.0166, MASE:  0.9572 (#29) ± 0.0030, OWA:   0.8890 (#22) ± 0.0014
+20. m4_pl18_unTrue_udTrue_fufeature_ebnone_fftrans_ftM | Avg Rank: 20.33 | SMAPE: 12.7533 (#22) ± 0.0145, MASE:  0.9437 (#20) ± 0.0031, OWA:   0.8855 (#19) ± 0.0013
+21. m4_pl18_unTrue_udTrue_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 22.00 | SMAPE: 12.7892 (#25) ± 0.0133, MASE:  0.9442 (#21) ± 0.0033, OWA:   0.8875 (#20) ± 0.0019
+22. m4_pl18_unTrue_udFalse_fufeature_ebtoken_fftrans_ftM | Avg Rank: 23.67 | SMAPE: 12.8410 (#31) ± 0.0375, MASE:  0.9432 (#19) ± 0.0025, OWA:   0.8888 (#21) ± 0.0022
+23. m4_pl18_unTrue_udFalse_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 24.00 | SMAPE: 12.6852 (#13) ± 0.0342, MASE:  0.9625 (#32) ± 0.0061, OWA:   0.8922 (#27) ± 0.0040
+24. m4_pl18_unTrue_udFalse_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 24.33 | SMAPE: 12.7703 (#24) ± 0.0213, MASE:  0.9513 (#26) ± 0.0028, OWA:   0.8898 (#23) ± 0.0022
+25. m4_pl18_unTrue_udTrue_futemporal_ebtoken_fftrans_ftM | Avg Rank: 24.67 | SMAPE: 12.7018 (#17) ± 0.0595, MASE:  0.9602 (#31) ± 0.0045, OWA:   0.8915 (#26) ± 0.0038
+26. m4_pl18_unTrue_udFalse_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 25.33 | SMAPE: 12.8035 (#27) ± 0.0079, MASE:  0.9497 (#24) ± 0.0030, OWA:   0.8902 (#25) ± 0.0017
+27. m4_pl18_unTrue_udFalse_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 26.00 | SMAPE: 12.8450 (#32) ± 0.0125, MASE:  0.9460 (#22) ± 0.0018, OWA:   0.8900 (#24) ± 0.0012
+28. m4_pl18_unTrue_udFalse_futemporal_ebnone_ffmlp_ftM | Avg Rank: 28.00 | SMAPE: 12.8130 (#28) ± 0.0248, MASE:  0.9545 (#27) ± 0.0045, OWA:   0.8927 (#29) ± 0.0029
+29. m4_pl18_unTrue_udTrue_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 29.00 | SMAPE: 12.8702 (#36) ± 0.0270, MASE:  0.9482 (#23) ± 0.0040, OWA:   0.8923 (#28) ± 0.0029
+30. m4_pl18_unTrue_udFalse_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 29.67 | SMAPE: 12.8573 (#34) ± 0.0376, MASE:  0.9510 (#25) ± 0.0074, OWA:   0.8930 (#30) ± 0.0047
+31. m4_pl18_unTrue_udFalse_fufeature_ebnone_fftrans_ftM | Avg Rank: 30.67 | SMAPE: 12.8468 (#33) ± 0.0128, MASE:  0.9547 (#28) ± 0.0021, OWA:   0.8940 (#31) ± 0.0012
+32. m4_pl18_unTrue_udFalse_futemporal_ebtoken_fftrans_ftM | Avg Rank: 32.00 | SMAPE: 12.7950 (#26) ± 0.0720, MASE:  0.9745 (#36) ± 0.0029, OWA:   0.9015 (#34) ± 0.0039
+33. m4_pl18_unFalse_udFalse_futemporal_ebfreq_ffmlp_ftM | Avg Rank: 33.00 | SMAPE: 12.8170 (#29) ± 0.0515, MASE:  0.9735 (#35) ± 0.0131, OWA:   0.9020 (#35) ± 0.0080
+34. m4_pl18_unTrue_udFalse_futemporal_ebpatch_fftrans_ftM | Avg Rank: 33.67 | SMAPE: 12.9893 (#39) ± 0.0308, MASE:  0.9582 (#30) ± 0.0028, OWA:   0.9008 (#32) ± 0.0017
+35. m4_pl18_unFalse_udTrue_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 34.00 | SMAPE: 12.7692 (#23) ± 0.0945, MASE:  0.9792 (#42) ± 0.0157, OWA:   0.9030 (#37) ± 0.0102
+36. m4_pl18_unTrue_udTrue_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 34.67 | SMAPE: 12.9187 (#37) ± 0.0177, MASE:  0.9642 (#34) ± 0.0031, OWA:   0.9010 (#33) ± 0.0022
+37. m4_pl18_unTrue_udTrue_futemporal_ebpatch_fftrans_ftM | Avg Rank: 35.67 | SMAPE: 12.9665 (#38) ± 0.0349, MASE:  0.9640 (#33) ± 0.0077, OWA:   0.9025 (#36) ± 0.0044
+38. m4_pl18_unFalse_udFalse_futemporal_ebnone_ffmlp_ftM | Avg Rank: 36.33 | SMAPE: 12.8295 (#30) ± 0.0127, MASE:  0.9792 (#41) ± 0.0033, OWA:   0.9053 (#38) ± 0.0010
+39. m4_pl18_unTrue_udTrue_fufeature_ebnone_ffrnn_ftM | Avg Rank: 41.00 | SMAPE: 13.0710 (#47) ± 0.0139, MASE:  0.9762 (#37) ± 0.0033, OWA:   0.9120 (#39) ± 0.0022
+40. m4_pl18_unTrue_udFalse_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 41.33 | SMAPE: 13.0450 (#44) ± 0.0465, MASE:  0.9785 (#40) ± 0.0057, OWA:   0.9123 (#40) ± 0.0042
+41. m4_pl18_unTrue_udTrue_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 41.33 | SMAPE: 13.0583 (#45) ± 0.0548, MASE:  0.9775 (#38) ± 0.0073, OWA:   0.9123 (#41) ± 0.0050
+42. m4_pl18_unTrue_udFalse_fufeature_ebnone_ffrnn_ftM | Avg Rank: 43.00 | SMAPE: 13.0858 (#48) ± 0.0118, MASE:  0.9783 (#39) ± 0.0010, OWA:   0.9135 (#42) ± 0.0010
+43. m4_pl18_unTrue_udTrue_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 43.33 | SMAPE: 13.0213 (#41) ± 0.0334, MASE:  0.9880 (#45) ± 0.0042, OWA:   0.9158 (#44) ± 0.0032
+44. m4_pl18_unTrue_udFalse_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 44.00 | SMAPE: 13.0695 (#46) ± 0.0492, MASE:  0.9795 (#43) ± 0.0162, OWA:   0.9138 (#43) ± 0.0092
+45. m4_pl18_unTrue_udFalse_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 44.67 | SMAPE: 13.0230 (#42) ± 0.0238, MASE:  0.9910 (#46) ± 0.0074, OWA:   0.9173 (#46) ± 0.0039
+46. m4_pl18_unTrue_udTrue_futemporal_ebnone_ffrnn_ftM | Avg Rank: 45.33 | SMAPE: 12.9962 (#40) ± 0.0511, MASE:  1.0020 (#49) ± 0.0074, OWA:   0.9215 (#47) ± 0.0054
+47. m4_pl18_unTrue_udFalse_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 46.33 | SMAPE: 13.1067 (#50) ± 0.0344, MASE:  0.9828 (#44) ± 0.0106, OWA:   0.9163 (#45) ± 0.0062
+48. m4_pl18_unFalse_udTrue_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 47.00 | SMAPE: 12.8582 (#35) ± 0.1564, MASE:  1.0290 (#56) ± 0.0714, OWA:   0.9295 (#50) ± 0.0382
+49. m4_pl18_unTrue_udTrue_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 48.67 | SMAPE: 13.1372 (#51) ± 0.0276, MASE:  0.9923 (#47) ± 0.0041, OWA:   0.9218 (#48) ± 0.0026
+50. m4_pl18_unFalse_udFalse_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 50.33 | SMAPE: 13.1770 (#52) ± 0.0321, MASE:  1.0045 (#50) ± 0.0078, OWA:   0.9290 (#49) ± 0.0047
+51. m4_pl18_unTrue_udTrue_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 51.33 | SMAPE: 13.2767 (#55) ± 0.0824, MASE:  0.9992 (#48) ± 0.0103, OWA:   0.9300 (#51) ± 0.0079
+52. m4_pl18_unFalse_udFalse_futemporal_ebpatch_ffmlp_ftM | Avg Rank: 51.67 | SMAPE: 13.1050 (#49) ± 0.0459, MASE:  1.0200 (#54) ± 0.0284, OWA:   0.9338 (#52) ± 0.0145
+53. m4_pl18_unFalse_udFalse_futemporal_ebinvert_ffmlp_ftM | Avg Rank: 52.33 | SMAPE: 13.0337 (#43) ± 0.0931, MASE:  1.0415 (#59) ± 0.0500, OWA:   0.9415 (#55) ± 0.0264
+54. m4_pl18_unTrue_udTrue_fufeature_ebnone_ffmlp_ftM | Avg Rank: 52.67 | SMAPE: 13.2720 (#54) ± 0.0238, MASE:  1.0130 (#51) ± 0.0062, OWA:   0.9360 (#53) ± 0.0035
+55. m4_pl18_unTrue_udFalse_futemporal_ebnone_ffrnn_ftM | Avg Rank: 53.33 | SMAPE: 13.2447 (#53) ± 0.1130, MASE:  1.0197 (#53) ± 0.0181, OWA:   0.9385 (#54) ± 0.0127
+56. m4_pl18_unTrue_udFalse_fufeature_ebnone_ffmlp_ftM | Avg Rank: 55.33 | SMAPE: 13.3670 (#58) ± 0.0218, MASE:  1.0197 (#52) ± 0.0051, OWA:   0.9427 (#56) ± 0.0022
+57. m4_pl18_unTrue_udFalse_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 57.00 | SMAPE: 13.4340 (#59) ± 0.0483, MASE:  1.0272 (#55) ± 0.0105, OWA:   0.9483 (#57) ± 0.0068
+58. m4_pl18_unFalse_udTrue_fufeature_ebinvert_ffmlp_ftM | Avg Rank: 58.33 | SMAPE: 13.3190 (#56) ± 0.2991, MASE:  1.0577 (#60) ± 0.0848, OWA:   0.9590 (#59) ± 0.0505
+59. m4_pl18_unFalse_udTrue_fufeature_ebnone_ffmlp_ftM | Avg Rank: 58.33 | SMAPE: 13.5138 (#60) ± 0.0444, MASE:  1.0372 (#57) ± 0.0111, OWA:   0.9560 (#58) ± 0.0060
+60. m4_pl18_unFalse_udTrue_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 59.67 | SMAPE: 13.7027 (#61) ± 0.0210, MASE:  1.0375 (#58) ± 0.0076, OWA:   0.9627 (#60) ± 0.0040
+61. m4_pl18_unFalse_udFalse_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 60.00 | SMAPE: 13.3240 (#57) ± 0.2855, MASE:  1.1258 (#62) ± 0.0970, OWA:   0.9908 (#61) ± 0.0546
+62. m4_pl18_unFalse_udFalse_fufeature_ebfreq_ffmlp_ftM | Avg Rank: 62.00 | SMAPE: 14.1925 (#63) ± 0.0294, MASE:  1.1013 (#61) ± 0.0247, OWA:   1.0097 (#62) ± 0.0118
+63. m4_pl18_unFalse_udFalse_fufeature_ebnone_ffmlp_ftM | Avg Rank: 63.67 | SMAPE: 14.5273 (#65) ± 0.0537, MASE:  1.1342 (#63) ± 0.0103, OWA:   1.0367 (#63) ± 0.0066
+64. m4_pl18_unFalse_udTrue_futemporal_ebtoken_ffmlp_ftM | Avg Rank: 63.67 | SMAPE: 14.1345 (#62) ± 0.9876, MASE:  1.3025 (#65) ± 0.2950, OWA:   1.1022 (#64) ± 0.1731
+65. m4_pl18_unFalse_udTrue_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 65.00 | SMAPE: 14.3533 (#64) ± 0.3222, MASE:  1.3043 (#66) ± 0.1710, OWA:   1.1110 (#65) ± 0.0899
+66. m4_pl18_unFalse_udFalse_fufeature_ebtoken_ffmlp_ftM | Avg Rank: 65.33 | SMAPE: 14.7390 (#66) ± 0.2322, MASE:  1.2770 (#64) ± 0.0620, OWA:   1.1112 (#66) ± 0.0340
+67. m4_pl18_unFalse_udTrue_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 67.33 | SMAPE: 15.1595 (#68) ± 1.1812, MASE:  1.3938 (#67) ± 0.2102, OWA:   1.1808 (#67) ± 0.1395
+68. m4_pl18_unFalse_udFalse_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 68.33 | SMAPE: 14.9972 (#67) ± 0.5031, MASE:  1.5945 (#69) ± 0.1809, OWA:   1.2695 (#69) ± 0.1024
+69. m4_pl18_unFalse_udTrue_futemporal_ebnone_ffrnn_ftM | Avg Rank: 69.00 | SMAPE: 15.9342 (#71) ± 0.0802, MASE:  1.5055 (#68) ± 0.0291, OWA:   1.2603 (#68) ± 0.0159
+70. m4_pl18_unFalse_udFalse_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 69.67 | SMAPE: 15.2700 (#69) ± 0.3015, MASE:  1.6053 (#70) ± 0.1260, OWA:   1.2840 (#70) ± 0.0692
+71. m4_pl18_unFalse_udTrue_fufeature_ebpatch_ffmlp_ftM | Avg Rank: 72.00 | SMAPE: 15.7935 (#70) ± 0.8777, MASE:  1.8487 (#73) ± 0.2316, OWA:   1.4165 (#73) ± 0.1395
+72. m4_pl18_unFalse_udFalse_fufeature_ebtoken_ffrnn_ftM | Avg Rank: 72.00 | SMAPE: 16.9402 (#74) ± 1.0139, MASE:  1.6322 (#71) ± 0.1563, OWA:   1.3545 (#71) ± 0.1077
+73. m4_pl18_unFalse_udFalse_futemporal_ebnone_ffrnn_ftM | Avg Rank: 72.33 | SMAPE: 16.9322 (#73) ± 0.5262, MASE:  1.7628 (#72) ± 0.1317, OWA:   1.4160 (#72) ± 0.0801
+74. m4_pl18_unFalse_udTrue_futemporal_ebpatch_ffrnn_ftM | Avg Rank: 73.33 | SMAPE: 16.4185 (#72) ± 0.3660, MASE:  1.9420 (#74) ± 0.1192, OWA:   1.4823 (#74) ± 0.0680
+75. m4_pl18_unFalse_udFalse_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 75.00 | SMAPE: 17.2213 (#75) ± 0.2174, MASE:  2.0623 (#75) ± 0.0805, OWA:   1.5665 (#75) ± 0.0447
+76. m4_pl18_unFalse_udTrue_futemporal_ebinvert_ffrnn_ftM | Avg Rank: 76.00 | SMAPE: 17.2707 (#76) ± 0.3551, MASE:  2.0892 (#76) ± 0.1212, OWA:   1.5810 (#76) ± 0.0691
+77. m4_pl18_unFalse_udTrue_fufeature_ebpatch_fftrans_ftM | Avg Rank: 77.00 | SMAPE: 52.0205 (#77) ± 0.2587, MASE:  8.0285 (#77) ± 0.1793, OWA:   5.5782 (#77) ± 0.0879
+78. m4_pl18_unFalse_udTrue_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 78.00 | SMAPE: 53.0910 (#78) ± 0.8253, MASE:  8.5520 (#78) ± 0.1593, OWA:   5.8613 (#78) ± 0.1028
+79. m4_pl18_unFalse_udTrue_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 79.00 | SMAPE: 56.1325 (#79) ± 0.2390, MASE:  8.7985 (#79) ± 0.0655, OWA:   6.0825 (#79) ± 0.0389
+80. m4_pl18_unFalse_udTrue_fufeature_ebtoken_fftrans_ftM | Avg Rank: 80.00 | SMAPE: 61.3985 (#80) ± 1.5601, MASE:  9.8253 (#80) ± 0.5993, OWA:   6.7480 (#80) ± 0.3344
+81. m4_pl18_unFalse_udTrue_futemporal_ebpatch_fftrans_ftM | Avg Rank: 81.00 | SMAPE: 64.8045 (#81) ± 3.4773, MASE:  10.3783 (#81) ± 0.6568, OWA:   7.1258 (#81) ± 0.3740
+82. m4_pl18_unFalse_udTrue_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 82.67 | SMAPE: 66.0902 (#84) ± 0.1526, MASE:  10.8165 (#82) ± 0.0103, OWA:   7.3765 (#82) ± 0.0082
+83. m4_pl18_unFalse_udTrue_fufeature_ebnone_ffrnn_ftM | Avg Rank: 84.33 | SMAPE: 66.6150 (#86) ± 0.2192, MASE:  11.0147 (#84) ± 0.0700, OWA:   7.4880 (#83) ± 0.0283
+84. m4_pl18_unFalse_udFalse_fufeature_ebpatch_fftrans_ftM | Avg Rank: 86.33 | SMAPE: 71.0380 (#92) ± 1.2246, MASE:  10.9188 (#83) ± 0.0597, OWA:   7.5960 (#84) ± 0.0230
+85. m4_pl18_unFalse_udFalse_fufeature_ebinvert_ffrnn_ftM | Avg Rank: 86.67 | SMAPE: 67.4150 (#87) ± 0.1925, MASE:  11.3230 (#87) ± 0.0608, OWA:   7.6605 (#86) ± 0.0230
+86. m4_pl18_unFalse_udTrue_fufeature_ebinvert_fftrans_ftM | Avg Rank: 87.00 | SMAPE: 70.6850 (#91) ± 0.1664, MASE:  11.0358 (#85) ± 0.0246, OWA:   7.6387 (#85) ± 0.0071
+87. m4_pl18_unFalse_udFalse_fufeature_ebnone_ffrnn_ftM | Avg Rank: 87.67 | SMAPE: 67.4343 (#88) ± 0.0453, MASE:  11.3332 (#88) ± 0.0458, OWA:   7.6660 (#87) ± 0.0203
+88. m4_pl18_unFalse_udFalse_futemporal_ebtoken_ffrnn_ftM | Avg Rank: 89.00 | SMAPE: 66.5842 (#85) ± 0.2786, MASE:  11.6035 (#92) ± 0.0805, OWA:   7.7635 (#90) ± 0.0288
+89. m4_pl18_unFalse_udFalse_fufeature_ebpatch_ffrnn_ftM | Avg Rank: 89.00 | SMAPE: 65.7325 (#82) ± 0.3925, MASE:  11.8617 (#93) ± 0.1464, OWA:   7.8557 (#92) ± 0.0618
+90. m4_pl18_unFalse_udTrue_futemporal_ebtoken_fftrans_ftM | Avg Rank: 89.33 | SMAPE: 67.8397 (#90) ± 0.5743, MASE:  11.4045 (#90) ± 0.1246, OWA:   7.7140 (#88) ± 0.0396
+91. m4_pl18_unFalse_udFalse_futemporal_ebtoken_fftrans_ftM | Avg Rank: 89.67 | SMAPE: 67.7715 (#89) ± 0.6558, MASE:  11.4448 (#91) ± 0.1284, OWA:   7.7302 (#89) ± 0.0379
+92. m4_pl18_unFalse_udFalse_futemporal_ebpatch_fftrans_ftM | Avg Rank: 90.00 | SMAPE: 72.6375 (#93) ± 5.2755, MASE:  11.1630 (#86) ± 0.2178, OWA:   7.7665 (#91) ± 0.1035
+93. m4_pl18_unFalse_udFalse_fufeature_ebtoken_fftrans_ftM | Avg Rank: 90.00 | SMAPE: 66.0577 (#83) ± 0.1392, MASE:  11.9095 (#94) ± 0.1121, OWA:   7.8895 (#93) ± 0.0489
+94. m4_pl18_unFalse_udFalse_fufeature_ebinvert_fftrans_ftM | Avg Rank: 92.33 | SMAPE: 82.6815 (#94) ± 0.0177, MASE:  11.3712 (#89) ± 0.0013, OWA:   8.2125 (#94) ± 0.0013
+95. m4_pl18_unFalse_udTrue_fufeature_ebnone_fftrans_ftM | Avg Rank: 95.00 | SMAPE: 164.5355 (#95) ± 0.0995, MASE:  17.7975 (#95) ± 0.0051, OWA:   14.0710 (#95) ± 0.0059
+96. m4_pl18_unFalse_udFalse_fufeature_ebnone_fftrans_ftM | Avg Rank: 96.00 | SMAPE: 180.6792 (#96) ± 0.0414, MASE:  18.5875 (#96) ± 0.0021, OWA:   15.0017 (#96) ± 0.0025
